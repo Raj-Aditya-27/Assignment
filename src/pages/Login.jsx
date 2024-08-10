@@ -1,6 +1,7 @@
 import React from "react";
 import AppBar from "../components/AppBar";
 import google from "../assets/google.svg";
+import Footer from "../components/Footer";
 
 function Login() {
   const handleGoogleLogin = () => {
@@ -40,6 +41,7 @@ function Login() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
